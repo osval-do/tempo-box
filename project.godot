@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="tempo-box"
+run/main_scene="res://window.tscn"
+config/features=PackedStringArray("4.3", "C#", "Mobile")
+boot_splash/show_image=false
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+config/icon="res://icon.png"
+config/windows_native_icon="res://icon.ico"
+
+[display]
+
+window/size/viewport_width=600
+window/size/viewport_height=300
+
+[dotnet]
+
+project/assembly_name="tempo-box"
+
+[rendering]
+
+renderer/rendering_method="mobile"
